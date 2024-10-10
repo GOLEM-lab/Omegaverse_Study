@@ -14,15 +14,25 @@ This dataset includes metadata and power scores for the Omegaverse slash relatio
 
 Example dataset (e.g., AO_CD_DC_result.csv for Castiel/Dean in the Supernatural fandom) contains the following columns:
 
-story_id: Unique identifier for the story
-relationships: Fanfiction relationship tags
-published: Date of publication
-genre: Story genre
-Castiel_power_score, Dean_power_score: Power scores computed using Riveter for key characters
-Alpha_power_score, Omega_power_score: Power scores for secondary genders
-gender_power_difference: Calculated difference between Alpha and Omega power scores
-year: Year of publication
-additional_tags: Any additional tags associated with the story
+story_id: Unique identifier for the story;
+
+relationships: Fanfiction relationship tags;
+
+published: Date of publication;
+
+genre: Story genre;
+
+Castiel_power_score, Dean_power_score: Power scores computed using Riveter for key characters;
+
+Alpha_power_score, Omega_power_score: Power scores for secondary genders;
+
+Castiel_list, Dean_list, Alpha_list, Beta_list, Omega_list: Verbs that identified per persona by Riveter Sap's lexicon;
+
+gender_power_difference: Calculated difference between Alpha and Omega power scores;
+
+year: Year of publication;
+
+additional_tags: Any additional tags associated with the story.
 
 ## Limitation and Future Works
 Our current study is limited to English fanfiction within popular fandoms, which may include multiple stories written by the same authors. Additionally, we observed interactions between the original plots and the computed power dynamics in specific fandoms (e.g., Hannibal and Yuri on Ice). Future work will expand the corpus to include a greater variety of languages, plot types, and themes, while controlling for author uniqueness. We will also enhance the analysis with more granular linguistic features, such as adjectives and adverbs, and include tags like "Non-Traditional Alpha/Beta/Omega Dynamics" to explore their impact on gender dynamics.
